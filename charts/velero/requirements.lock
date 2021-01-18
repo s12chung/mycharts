@@ -1,0 +1,6 @@
+dependencies:
+- name: minio
+  repository: ""
+  version: 8.0.8
+digest: sha256:b3ce060623b9402ebf849b97d28e19caffe7debf685392227768f2312193d571
+generated: "2020-12-17T16:16:52.255169-08:00"
