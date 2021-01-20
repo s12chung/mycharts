@@ -3,14 +3,14 @@ entries:
   velero:
   - apiVersion: v1
     appVersion: 1.5.2
-    created: "2021-01-19T19:27:54.451189-05:00"
+    created: "2021-01-19T19:56:40.211723-05:00"
     dependencies:
     - condition: minioBackend
       name: minio
       repository: ""
       version: 8.0.8
     description: A Helm chart for velero
-    digest: 1ff11e5ddc7a1ef95ac41a91a52f7935d21b558ce7fb9eb2f7e0bc976449c890
+    digest: 642e223083d7415419a61a0c84798132efb5b4f52293cd9207bfb84c580005e4
     home: https://github.com/vmware-tanzu/velero
     icon: https://cdn-images-1.medium.com/max/1600/1*-9mb3AKnKdcL_QD3CMnthQ.png
     maintainers:
@@ -32,4 +32,4 @@ entries:
     urls:
     - https://s12chung.github.io/mycharts/charts/velero-3.1.0.tgz
     version: 3.1.0
-generated: "2021-01-19T19:27:54.442414-05:00"
+generated: "2021-01-19T19:56:40.205106-05:00"
