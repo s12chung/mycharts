@@ -13,6 +13,28 @@ entries:
     urls:
     - https://s12chung.github.io/mycharts/charts/kommander-ui-7.5.0.tgz
     version: 7.5.0
+  opsportal:
+  - apiVersion: v1
+    appVersion: 1.5.0
+    created: "2021-03-04T21:05:42.423471-05:00"
+    dependencies:
+    - condition: kommander-ui.enabled
+      name: kommander-ui
+      repository: https://s12chung.github.io/mycharts/charts
+      version: 7.5.0
+    description: OpsPortal Chart
+    digest: 1b0dc4ae0d6da5be9a6fae48e9fae4b7f01d60bef827fea5be37edffe73f9939
+    home: https://github.com/mesosphere/charts
+    maintainers:
+    - name: hectorj2f
+    - name: alejandroEsc
+    - name: jr0d
+    - name: dkoshkin
+    - name: gracedo
+    name: opsportal
+    urls:
+    - https://s12chung.github.io/mycharts/charts/opsportal-0.4.0.tgz
+    version: 0.4.0
   velero:
   - apiVersion: v1
     appVersion: 1.5.2
@@ -45,4 +67,4 @@ entries:
     urls:
     - https://s12chung.github.io/mycharts/charts/velero-3.1.0.tgz
     version: 3.1.0
-generated: "2021-03-04T21:00:42.374777-05:00"
+generated: "2021-03-04T21:05:42.421133-05:00"
