@@ -1,5 +1,18 @@
 apiVersion: v1
 entries:
+  kommander-ui:
+  - apiVersion: v1
+    appVersion: 7.5.0
+    created: "2021-03-04T21:00:42.375559-05:00"
+    description: Kommander UI
+    digest: eb4440a2029f8e68580f1cf228f3cb3494182d1ab92f57d1aefa0cbb2ffbea96
+    home: https://github.com/mesosphere/kommander-ui
+    maintainers:
+    - name: DanielMSchmidt
+    name: kommander-ui
+    urls:
+    - https://s12chung.github.io/mycharts/charts/kommander-ui-7.5.0.tgz
+    version: 7.5.0
   velero:
   - apiVersion: v1
     appVersion: 1.5.2
@@ -32,4 +45,4 @@ entries:
     urls:
     - https://s12chung.github.io/mycharts/charts/velero-3.1.0.tgz
     version: 3.1.0
-generated: "2021-01-19T20:25:10.928716-05:00"
+generated: "2021-03-04T21:00:42.374777-05:00"
