@@ -1,6 +1,6 @@
 dependencies:
 - name: kommander-ui
-  repository: https://s12chung.github.io/mycharts/charts
-  version: 7.5.0
-digest: sha256:d488533a5a3223806305ea25f9a9d2b51d2a9d0eaea8cfaafccae5a9842f6130
-generated: "2021-03-04T21:04:55.8141-05:00"
+  repository: https://mesosphere.github.io/kommander-ui/charts
+  version: 6.81.2
+digest: sha256:149f2d88b881657207b0171477d5b4b1629a1f09cde02f677b4ccb86437dd451
+generated: "2021-03-04T21:28:23.460921-05:00"
