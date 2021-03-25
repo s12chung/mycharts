@@ -1,0 +1,14 @@
+apiVersion: v1
+appVersion: "3.3.0"
+description: Gatekeeper - Policy Controller for Kubernetes
+name: gatekeeper
+version: 0.6.6
+home: https://github.com/open-policy-agent/gatekeeper
+icon: https://www.openpolicyagent.org/img/opa-logo.svg
+maintainers:
+- email: jimmidyson@gmail.com
+  name: jimmidyson
+- email: dgoel@d2iq.com
+  name: deepakgoel
+sources:
+- https://github.com/open-policy-agent/gatekeeper
