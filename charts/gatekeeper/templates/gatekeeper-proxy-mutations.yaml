@@ -8,7 +8,7 @@ spec:
   applyTo:
     - groups: [""]
       kinds: ["Pod"]
-      versions: ["*"]
+      versions: ["v1"]
   match:
     scope: "*"
     {{- if .Values.mutations.namespaceSelectorForProxy }}
@@ -36,7 +36,7 @@ spec:
   applyTo:
     - groups: [""]
       kinds: ["Pod"]
-      versions: ["*"]
+      versions: ["v1"]
   match:
     scope: "*"
     {{- if .Values.mutations.namespaceSelectorForProxy }}
@@ -64,7 +64,7 @@ spec:
   applyTo:
     - groups: [""]
       kinds: ["Pod"]
-      versions: ["*"]
+      versions: ["v1"]
   match:
     scope: "*"
     {{- if .Values.mutations.namespaceSelectorForProxy }}
